@@ -16,8 +16,8 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
       <div class="container">
 
         <a class="navbar-brand" href="#">
@@ -54,8 +54,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Nous contacter</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Trouver une mission</a>
+            <li class="nav-item ms-lg-2">
+              <a class="btn btn-trouver rounded-pill px-4" href="#">Trouver une mission</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Se connecter <i class="bi bi-person"></i></a>
@@ -65,6 +65,4 @@
 
       </div>
     </nav>
-
   </header>
-</body>

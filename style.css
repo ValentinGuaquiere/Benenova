@@ -1,6 +1,24 @@
+/* header */
 .navbar {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   background-color: #ffffff !important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.btn-trouver {
+  background-color: #3a2d2d;
+  color: #fff;
+  font-weight: 600;
+}
+.btn-trouver:hover {
+  background-color: white;
+  color: #3a2d2d;
+  border-color: #3a2d2d;
+}
+/* footer */
+.bande-doree {
+  border: none;
+  border-top: 3px solid #c8b84a;
+  margin: 0;
+  opacity: 1;
 }
