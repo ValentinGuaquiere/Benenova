@@ -22,3 +22,35 @@
   margin: 0;
   opacity: 1;
 }
+.nav-footer .nav-link {
+  text-decoration: underline;
+  color: #473b3b;
+}
+.bloc-info {
+  background-color: #fdfaf0;
+  color: #473b3a;
+}
+.bloc-info a {
+  color: #473b3a;
+  text-decoration: underline;
+  text-decoration-color: #473b3a;
+  text-underline-offset: 0.3em;
+}
+.social-section h5 {
+  color: #473b3b;
+  margin-right: 1.8rem;
+}
+.social-link {
+  color: #473b3b;
+  text-decoration-color: #473b3a;
+  text-underline-offset: 0.3em;
+}
+.social-link i {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+.legal-link {
+  color: #473b3b;
+  margin-right: 1.3rem;
+}
