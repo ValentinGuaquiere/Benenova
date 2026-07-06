@@ -17,7 +17,7 @@
             <div class="p-4 border rounded bloc-info h-100">
                 <h3 class="h5 mb-3">Newsletter</h3>
                 <p>Restez informé des dernières nouvelles et offres exclusives. Abonnez-vous à notre newsletter</p>
-                <a href="">S'abonner à la newsletter</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#newsletterModal">S'abonner à la newsletter</a>
             </div>
         </div>
         <div class="col-12 col-lg-4">
@@ -55,7 +55,44 @@
     </div>
 </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true"
+    data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 p-2">
+                <div class="d-flex align-items-center gap-2 ms-auto">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h1 class="modal-title fw-bold text-center" id="newsletterModalLabel">Newsletter</h1>
+                <div class="bloc-newsletter m-3 p-4 border border-1 border-black rounded-3">
+                    <select class="form-select border-black mt-4 mb-4">
+                        <option>Lille</option>
+                        <option>Marseille</option>
+                        <option>Nates</option>
+                        <option>Paris</option>
+                        <option>Rennes</option>
+                    </select>
+                    <input type="email"
+                        class="form-control border-black border-start-0 border-end-0 border-top-0 rounded-0 ps-0"
+                        placeholder="Votre adresse mail">
+                    <div class="form-check mt-4 d-flex align-items-center">
+                        <input type="checkbox" class="form-check-input me-3 border-black" id="newsletterCheck">
+                        <label class="form-check-label" for="newsletterCheck">
+                            J'accepte de recevoir la newsletter. Je peux me désinscrire à tout moment. Consulter la
+                            <span class="text-decoration-underline">politique de confidentialité</span>
+                        </label>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="btn btn-trouver">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</body>
+    </body>
 
-</html>
+    </html>

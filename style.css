@@ -54,3 +54,35 @@
   color: #473b3b;
   margin-right: 1.3rem;
 }
+.modal-body .modal-title {
+  font-family: "Archivo Black", sans-serif;
+  transform: scaleY(1.5);
+}
+
+#newsletterModal .modal-dialog {
+  --bs-modal-width: 620px;
+}
+#newsletterModal .modal-content {
+  border-radius: 15px;
+}
+.bloc-newsletter {
+  background-color: #fdfaf0;
+}
+.bloc-newsletter .form-control {
+  background-color: #fdfaf0;
+}
+.btn-trouver {
+  width: 90%;
+  padding: 10px;
+
+  background: #473b3b;
+  color: white;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-trouver:hover {
+  background: #312727;
+  color: white;
+}
