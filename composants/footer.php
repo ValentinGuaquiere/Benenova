@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <h1 class="modal-title fw-bold text-center" id="newsletterModalLabel">Newsletter</h1>
+                <h1 class="modal-title text-center" id="newsletterModalLabel">Newsletter</h1>
                 <div class="bloc-newsletter m-3 p-4 border border-1 border-black rounded-3">
                     <select class="form-select border-black mt-4 mb-4">
                         <option>Lille</option>
@@ -86,7 +86,7 @@
                         </label>
                     </div>
                     <div class="d-flex justify-content-center mt-4">
-                        <button class="btn btn-trouver">S'inscrire</button>
+                        <button class="btn btn-newsletter">S'inscrire</button>
                     </div>
                 </div>
             </div>
