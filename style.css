@@ -95,3 +95,23 @@ h1 {
 .content-hero {
   background-color: #fdfaf0;
 }
+.section-hero {
+  min-height: 100vh;
+}
+
+.content-hero {
+  background-color: #fdfaf0;
+  padding: 4rem;
+}
+
+.hero-image {
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
